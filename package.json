@@ -1,9 +1,12 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "[![Actions Status](https://github.com/zxcCapybara/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zxcCapybara/frontend-project-44/actions)",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +20,7 @@
     "url": "https://github.com/zxcCapybara/frontend-project-44/issues"
   },
   "homepage": "https://github.com/zxcCapybara/frontend-project-44#readme",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }

@@ -1,4 +1,3 @@
-// src/games/gcd.js
 import runGame from '../gameEngine.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
